@@ -10,7 +10,6 @@ import { Subscription } from "./observable";
 ].forEach(({ api }) => {
   describe(`console ${api} observable`, () => {
     let consoleSubscription: Subscription;
-    //const logs: ConsoleLog[] = [];
     let notifyLog: jest.Mock;
     let consoleStub: jest.SpyInstance;
 

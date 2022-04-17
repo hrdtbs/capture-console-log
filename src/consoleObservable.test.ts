@@ -30,7 +30,6 @@ import { Subscription } from "./observable";
       expect(consoleLog).toStrictEqual({
         api,
         data: ["foo", "bar"],
-        stack: undefined,
       });
     });
 
